@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view_post"
+    android:layout_width="match_parent"
+    android:layout_height="330dp"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="8dp"
+    android:theme="@style/Widget.MaterialComponents.CardView">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="100"
+            android:columnCount="1"
+            android:rowCount="2">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@color/colorPrimaryDark">
+
+                <ImageButton
+                    android:id="@+id/option_post"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_more_vert_black_24dp"
+                    android:tint="@color/colorButton2"
+                    android:background="@android:color/transparent" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/item_image_post"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_rowWeight="55"
+                android:background="@color/colorEmptyImage"
+                android:src="@drawable/tugu1"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"/>
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_rowWeight="45"
+                android:background="@drawable/cardview"
+                android:columnCount="1"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:paddingRight="16dp"
+                android:rowCount="3">
+
+                <TextView
+                    android:id="@+id/item_title_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:textStyle="bold"
+                    android:text="Title"
+                    android:maxLines="2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+                <TextView
+                    android:id="@+id/item_desc_post"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:text="Description"
+                    android:maxLines="2"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="8dp">
+
+                    <TextView
+                        android:id="@+id/tag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="#"
+                        android:textColor="@color/colorIcons"
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_marginRight="4dp"/>
+
+                    <TextView
+                        android:id="@+id/item_tag_post"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/tag"
+                        android:text="Tags"
+                        android:maxLines="1"
+                        android:layout_marginTop="8dp"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"/>
+
+                    <TextView
+                        android:id="@+id/item_created_post"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="4dp"
+                        android:text="2020-02-11"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:maxLines="1"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                        android:layout_marginTop="8dp"/>
+
+                </RelativeLayout>
+
+
+            </GridLayout>
+
+        </GridLayout>
+
+
+</com.google.android.material.card.MaterialCardView>
+    
+    

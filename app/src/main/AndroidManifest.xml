@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.artikelapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_assignment_ind_black_24dp"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activities.EditArticleActivity"
+            android:parentActivityName=".activities.ArticleActivity"
+            android:label="Edit Article"/>
+        <activity
+            android:name=".activities.AddArticleActivity"
+            android:label="New Article"
+            android:parentActivityName=".activities.ArticleActivity" />
+        <activity
+            android:name=".activities.DetailActivity"
+            android:label="Details"
+            android:parentActivityName=".activities.ArticleActivity" />
+        <activity
+            android:name=".activities.ArticleActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

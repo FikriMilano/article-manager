@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Article Manager</string>
+    <string name="rv_title">Tugu Jogja Berhasil di Renovasi</string>
+    <string name="rv_desc">Belakangan ini, netizen kembali dihebohkan dengan teori ‘Flat Earth’ alias teori yang menegaskan bahwa bumi itu datar seperti piring.</string>
+    <string-array name="title">
+
+    </string-array>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //Light Theme
+    <color name="colorPrimary">#414141</color> //414141
+    <color name="colorPrimaryDark">#1F1F1F</color> //1976D2 //Primary
+    <color name="colorAccent">#414141</color>
+
+    <color name="windowBackgroumd">#FFFFFF</color> //E9E9E9 //414141
+
+    <color name="textColorPrimary"></color>
+    <color name="colorToolbar">#FFFFFF</color>
+
+    <color name="colorButton">#1976D2</color>
+    <color name="colorButton2">#FFFFFF</color>
+    <color name="colorEditText">#E9E9E9</color>
+    <color name="colorBackgroundProgress">#E9E9E9</color>
+    <color name="colorEmptyImage">#1F1F1F</color>
+    <color name="colorCardView">#FFFFFF</color> //E9E9E9 //FFFFFF //F5F5F5
+    <color name="colorFontsWindow">#414141</color>
+    <color name="ColorFontsBar">#FFFFFF</color>
+    <color name="colorIcons">#414141</color>
+    <color name="colorFloatingButton">#1976D2</color>
+    <color name="colorFloatingButtonIcon">#FFFFFF</color>
+    <color name="colorRipple">#1976D2</color>
+    <color name="colorDelete">#FF5252</color>
+    <color name="colorEdit">#448AFF</color>
+
+
+</resources>
+
